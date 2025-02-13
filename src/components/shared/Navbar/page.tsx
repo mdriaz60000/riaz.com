@@ -14,7 +14,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/">
-              <span className="text-2xl font-bold text-teal-600">Riaz</span>
+              <span className="text-2xl font-bold text-blue-600 transition duration-300">Riaz</span>
             </Link>
           </div>
           
@@ -22,13 +22,13 @@ export default function Navbar() {
           <div className="hidden md:flex space-x-6">
             <Link href="/" className="text-gray-700 hover:text-blue-600">Home</Link>
             <Link href="/projects" className="text-gray-700 hover:text-blue-600">Projects</Link>
-            <Link href="/blog" className="text-gray-700 hover:text-blue-600">Blog</Link>
+            <Link href="/blogs" className="text-gray-700 hover:text-blue-600">Blog</Link>
             <Link href="/contact" className="text-gray-700 hover:text-blue-600">Contact</Link>
           </div>
           
           {/* Login Button */}
           <div className="hidden md:flex">
-            <Link href="/login" className="px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-500">Login</Link>
+            <Link href="/login" className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition duration-300">Login</Link>
           </div>
           
           {/* Mobile Menu Button */}
@@ -45,9 +45,9 @@ export default function Navbar() {
         <div className="md:hidden bg-white shadow-md py-2 px-4">
           <Link href="/" className="block py-2 text-gray-700 hover:text-blue-600">Home</Link>
           <Link href="/projects" className="block py-2 text-gray-700 hover:text-blue-600">Projects</Link>
-          <Link href="/blog" className="block py-2 text-gray-700 hover:text-blue-600">Blog</Link>
+          <Link href="/blogs" className="block py-2 text-gray-700 hover:text-blue-600">Blog</Link>
           <Link href="/contact" className="block py-2 text-gray-700 hover:text-blue-600">Contact</Link>
-          <Link href="/login" className="block mt-2 py-2 text-center bg-teal-600 text-white rounded-lg hover:bg-teal-500">Login</Link>
+          <Link href="/login" className="block mt-2 py-2 text-center bg-blue-500 text-white rounded-lg hover:bg-blue-600 ">Login</Link>
         </div>
       )}
     </nav>

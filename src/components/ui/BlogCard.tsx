@@ -5,7 +5,7 @@ import Link from "next/link";
 
 import { FaCalendar } from "react-icons/fa";
 
-const BlogCard = ({ blog }: { blog: Blog }) => {
+const BlogCard = ({ blog }: { blog: Blog  }) => {
   return (
     <div className="w-full bg-white shadow-md rounded-lg overflow-hidden">
       <figure>
@@ -18,7 +18,7 @@ const BlogCard = ({ blog }: { blog: Blog }) => {
         />
       </figure>
       <div className="p-6">
-        <p className="flex items-center justify-center text-teal-600 bg-teal-100 w-32 rounded-full py-1 text-sm">
+        <p className="flex items-center justify-center text-blue-500 bg-blue-100 w-32 rounded-full py-1 text-sm">
           <FaCalendar className="mr-2" />
           {blog.publish_date}
         </p>
@@ -31,7 +31,7 @@ const BlogCard = ({ blog }: { blog: Blog }) => {
           {blog.description.length > 100
             ? blog.description.slice(0, 60) + "..."
             : blog.description}
-          <Link href={`/blogs/${blog.id}`} className="text-teal-600 ml-1">
+          <Link href={`/blogs/${blog.id}`} className="text-blue-500 ml-1">
             Read More
           </Link>
         </p>

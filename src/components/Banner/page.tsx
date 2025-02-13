@@ -21,7 +21,7 @@ export default function Banner() {
         </p>
         <Link
           href='/'
-      className=" m px-3 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-500"
+      className=" m px-3 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition duration-300"
         >
           Resume Download
         </Link>

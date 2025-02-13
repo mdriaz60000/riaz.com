@@ -3,7 +3,7 @@ import Banner from "@/components/Banner/page";
 import LatestBlogs from "@/components/LatestBlogs/LatestBlogs";
 import Project from "@/components/Project/Project";
 import ContactPage from "./contact/page";
-import { stringify } from "querystring";
+
 
 
 
@@ -13,7 +13,7 @@ export default async function Home() {
       revalidate : 30,
     },
   })
-  const blogs = await res.json(stringify)
+  const blogs = await res.json()
 
   console.log(blogs)
   return (

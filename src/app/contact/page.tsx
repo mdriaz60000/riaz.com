@@ -6,9 +6,9 @@ const ContactPage = () => {
         <div className='w-[90%] mx-auto py-10'>
             <div className='flex flex-col md:flex-row gap-10'>
                 <div className='md:w-1/2'>
-                    <p className='text-4xl font-bold'>Let's Talk</p>
+                    <p className='text-4xl font-bold'>Lets Talk</p>
                     <p className='mt-4 text-gray-600'>
-                        Have some big idea or brand to develop and need help? Then reach out! We'd love to hear about your project and provide help.
+                        Have some big idea or brand to develop and need help? Then reach out! Wed love to hear about your project and provide help.
                     </p>
                     <p className='text-2xl font-semibold mt-6'>Email</p>
                     <p className='text-gray-600'>mohammadriaz6000@gmail.com</p>

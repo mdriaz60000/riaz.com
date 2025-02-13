@@ -24,7 +24,7 @@ const Project = () => {
       </section>
       <div className=" text-center mt-4">
       <Link href="/blogs">
-            <button className="px-3 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-500">
+            <button className="px-3 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">
               See More
             </button>
           </Link>
