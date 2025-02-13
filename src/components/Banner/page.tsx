@@ -16,15 +16,15 @@ export default function Banner() {
       />
       <div className="relative z-10 max-w-2xl px-6">
         <h1 className="text-4xl md:text-6xl font-bold">Welcome to My Portfolio</h1>
-        <p className="mt-4 text-lg md:text-xl text-gray-300">
+        <p className="mt-4 mb-3 text-lg md:text-xl text-gray-300 file:">
           Showcasing my web development skills and projects.
         </p>
-        <a
-          href="#projects"
-          className="mt-6 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition"
+        <Link
+          href='/'
+      className=" m px-3 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-500"
         >
           Resume Download
-        </a>
+        </Link>
         
         <div className='flex justify-center  gap-3 text-3xl py-4'>
             <Link href="https://github.com/mdriaz60000"><FaGithub /></Link>
